@@ -1,0 +1,74 @@
+html {
+  text-align: left;
+  font-size: 90%;
+  box-sizing: 2000%;
+}
+
+body {
+  margin: 5;
+  background-color: linen;
+}
+.grow {
+  transition: all 1s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+
+  flex-direction: right;
+  flex-grow: 5px;
+  justify-content: flex-end;
+}
+
+p {
+  text-align: center;
+  font-weight: bolder;
+}
+
+img {
+  align-content: center;
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  text-shadow: 2px 2px red;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+  font-size: 200%;
+}
+h2 {
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+  font-size: 150%;
+}
+h3 {
+  text-align: left;
+  font-weight: bold;
+  color: #000;
+  font-size: 150%;
+}
+
+.a :hover {
+  border-style: dashed;
+  transition: all 1s ease-in-out;
+  background-color: yellowgreen;
+  text-decoration: wavy;
+  font-family: "Times New Roman", Times, serif;
+}
+.b:hover {
+  border-style: dashed;
+  transition: all 1s ease-in-out;
+  background-color: yellowgreen;
+  text-decoration: wavy;
+  font-family: "Times New Roman", Times, serif;
+}
+.c:hover {
+  border-style: dashed;
+  transition: all 1s ease-in-out;
+  background-color: yellowgreen;
+  text-decoration: wavy;
+  font-family: "Times New Roman", Times, serif;
+}
