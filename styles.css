@@ -8,6 +8,7 @@ body {
   margin: 5;
   background-color: linen;
 }
+/*
 .grow {
   transition: all 1s ease-in-out;
 }
@@ -18,7 +19,7 @@ body {
   flex-direction: right;
   flex-grow: 5px;
   justify-content: flex-end;
-}
+}*/
 
 p {
   text-align: center;
@@ -50,7 +51,7 @@ h3 {
   color: #000;
   font-size: 150%;
 }
-
+/*
 .a :hover {
   border-style: dashed;
   transition: all 1s ease-in-out;
@@ -71,4 +72,4 @@ h3 {
   background-color: yellowgreen;
   text-decoration: wavy;
   font-family: "Times New Roman", Times, serif;
-}
+}*/
