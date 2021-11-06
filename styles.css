@@ -8,11 +8,11 @@ body {
   margin: 5;
   background-color: linen;
 }
-/*
+
 .grow {
   transition: all 1s ease-in-out;
 }
-
+/*
 .grow:hover {
   transform: scale(1.1);
 
