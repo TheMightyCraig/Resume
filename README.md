@@ -1,2 +1,3 @@
 # Resume
-My resume written in HTML and CSS
+
+My responsive resume written in HTML and CSS

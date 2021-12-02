@@ -1,75 +1,169 @@
-html {
-  text-align: left;
-  font-size: 90%;
-  box-sizing: 2000%;
-}
-
 body {
-  margin: 5;
+  font-family: "Times New Roman", Times, serif;
+
   background-color: linen;
 }
-
-.grow {
-  transition: all 1s ease-in-out;
-}
-/*
-.grow:hover {
-  transform: scale(1.1);
-
-  flex-direction: right;
-  flex-grow: 5px;
-  justify-content: flex-end;
-}*/
-
-p {
+html {
   text-align: center;
-  font-weight: bolder;
+  font-size: 120%;
+  box-sizing: 2000%;
 }
-
-img {
-  align-content: center;
+.img-thumbnail {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 100%;
   height: auto;
 }
 
-h1 {
-  text-shadow: 1px 1px rgb(87, 84, 84);
+#name {
+  margin-top: 2%;
+  text-shadow: 20% 20% rgb(87, 84, 84);
   text-align: center;
-  font-weight: bold;
+  font-size: 200%;
+  font-weight: bolder;
   color: #000;
   font-size: 200%;
 }
-h2 {
+.links {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: large;
   text-align: center;
-  font-weight: bold;
-  color: #000;
-  font-size: 150%;
+  font-weight: bolder;
+  justify-content: center;
+  justify-items: center;
+  gap: 1%;
 }
-h3 {
-  text-align: left;
-  font-weight: bold;
-  color: #000;
-  font-size: 150%;
+#email {
+  text-align: center;
+  font-weight: bolder;
 }
-/*
-.a :hover {
-  border-style: dashed;
-  transition: all 1s ease-in-out;
-  background-color: yellowgreen;
-  text-decoration: wavy;
-  font-family: "Times New Roman", Times, serif;
+#link {
+  text-align: center;
+  font-weight: bolder;
 }
-.b:hover {
-  border-style: dashed;
-  transition: all 1s ease-in-out;
-  background-color: yellowgreen;
-  text-decoration: wavy;
-  font-family: "Times New Roman", Times, serif;
+.title {
+  display: flex;
+  justify-content: space-evenly;
 }
-.c:hover {
-  border-style: dashed;
-  transition: all 1s ease-in-out;
-  background-color: yellowgreen;
-  text-decoration: wavy;
-  font-family: "Times New Roman", Times, serif;
-}*/
+
+#phone {
+  text-align: center;
+  font-weight: bolder;
+}
+
+#plane {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  justify-content: center;
+  justify-items: center;
+  height: auto;
+}
+
+.skills {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  justify-content: center;
+  justify-items: center;
+  height: auto;
+}
+.experience {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 120%;
+  justify-content: center;
+  justify-items: center;
+  height: auto;
+}
+.employment {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 120%;
+  justify-content: center;
+  justify-items: center;
+  height: auto;
+}
+
+/* Responsive Sizing based on pixel size */
+
+@media (min-width: 24em) {
+  .container,
+  footer {
+    /* Overrides the above styles on screens larger than 36em */
+    width: 350px;
+    margin: 18px auto 28px;
+  }
+}
+
+@media (min-width: 36em) {
+  .container,
+  footer {
+    /* Overrides the above styles on screens larger than 36em */
+    width: 600px;
+    margin: 20px auto 30px;
+  }
+}
+
+@media (min-width: 48em) {
+  .container,
+  footer {
+    /* Overrides the above styles on screens larger than 48em */
+    width: 1250px;
+    margin: 40px auto 60px;
+  }
+}
+
+@media (max-width: 24em) {
+  #name {
+    font-size: 18px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 45em) {
+  #name {
+    font-size: 50px;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 48em) {
+  #name {
+    font-size: 58px;
+  }
+}
+@media (max-width: 24em) {
+  .img-thumbnail {
+    font-size: 18px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 45em) {
+  .img-thumbnail {
+    font-size: 50px;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 48em) {
+  .img-thumbnail {
+    font-size: 58px;
+  }
+}
+/*END NAME RESPONSIVE SIZING */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
