@@ -1,6 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
 body {
   font-family: "Times New Roman", Times, serif;
-
   background-color: linen;
 }
 html {
@@ -43,10 +48,6 @@ html {
 #link {
   text-align: center;
   font-weight: bolder;
-}
-.title {
-  display: flex;
-  justify-content: space-evenly;
 }
 
 #phone {
@@ -95,8 +96,7 @@ html {
 /* Responsive Sizing based on pixel size */
 
 @media (min-width: 24em) {
-  .container,
-  footer {
+  .container {
     /* Overrides the above styles on screens larger than 36em */
     width: 350px;
     margin: 18px auto 28px;
@@ -104,8 +104,7 @@ html {
 }
 
 @media (min-width: 36em) {
-  .container,
-  footer {
+  .container {
     /* Overrides the above styles on screens larger than 36em */
     width: 600px;
     margin: 20px auto 30px;
@@ -113,57 +112,11 @@ html {
 }
 
 @media (min-width: 48em) {
-  .container,
-  footer {
+  .container {
     /* Overrides the above styles on screens larger than 48em */
     width: 1250px;
     margin: 40px auto 60px;
   }
 }
 
-@media (max-width: 24em) {
-  #name {
-    font-size: 18px;
-  }
-}
-
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 45em) {
-  #name {
-    font-size: 50px;
-  }
-}
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 48em) {
-  #name {
-    font-size: 58px;
-  }
-}
-@media (max-width: 24em) {
-  .img-thumbnail {
-    font-size: 18px;
-  }
-}
-
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 45em) {
-  .img-thumbnail {
-    font-size: 50px;
-  }
-}
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 48em) {
-  .img-thumbnail {
-    font-size: 58px;
-  }
-}
 /*END NAME RESPONSIVE SIZING */
-
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
