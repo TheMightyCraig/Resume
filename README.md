@@ -1,2 +1,3 @@
 # Resume
-Here is my Resume is HTML and CSS
+https:TheMightyCraig.github.io
+My responsive resume written in HTML and CSS

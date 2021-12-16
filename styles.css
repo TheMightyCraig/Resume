@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: linen;
+}
+html {
+  text-align: center;
+  font-size: 120%;
+  box-sizing: 2000%;
+}
+.img-thumbnail {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#name {
+  margin-top: 2%;
+  text-shadow: 20% 20% rgb(87, 84, 84);
+  text-align: center;
+  font-size: 200%;
+  font-weight: bolder;
+  color: #000;
+  font-size: 200%;
+}
+.links {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: large;
+  text-align: center;
+  font-weight: bolder;
+  justify-content: center;
+  justify-items: center;
+  gap: 1%;
+}
+#email {
+  text-align: center;
+  font-weight: bolder;
+}
+#link {
+  text-align: center;
+  font-weight: bolder;
+}
+
+#phone {
+  text-align: center;
+  font-weight: bolder;
+}
+
+#plane {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  justify-content: center;
+  justify-items: center;
+  height: auto;
+}
+
+.skills {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  justify-content: center;
+  justify-items: center;
+  height: auto;
+}
+.experience {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 120%;
+  justify-content: center;
+  justify-items: center;
+  height: auto;
+}
+.employment {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 120%;
+  justify-content: center;
+  justify-items: center;
+  height: auto;
+}
+
+/* Responsive Sizing based on pixel size */
+
+@media (min-width: 24em) {
+  .container {
+    /* Overrides the above styles on screens larger than 36em */
+    width: 350px;
+    margin: 18px auto 28px;
+  }
+}
+
+@media (min-width: 36em) {
+  .container {
+    /* Overrides the above styles on screens larger than 36em */
+    width: 600px;
+    margin: 20px auto 30px;
+  }
+}
+
+@media (min-width: 48em) {
+  .container {
+    /* Overrides the above styles on screens larger than 48em */
+    width: 1250px;
+    margin: 40px auto 60px;
+  }
+}
+
+/*END NAME RESPONSIVE SIZING */
